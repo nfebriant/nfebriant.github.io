@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cari Furnitur | Dapatkan berbagai macam furnitur murah dan terlengkap</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="CSS/belanja.css">
+   
+    
+
+
+</head>
+<body>
+	<!-- MOBILE NAVBAR -->
+    <div class="mb-nav">
+        <div class="mb-slider"></div>
+        <div class="mb-nav-item active">
+            <a href="index.html#home">
+                <i class='bx bxs-home'></i>
+            </a>
+        </div>
+        <div class="mb-nav-item">
+            <a href="furnitur.html#furnitur" id="furnitur">
+                <i class='bx bxs-shopping-bag' ></i>
+            </a>
+        </div>
+        <div class="mb-nav-item">
+            <a href="arsitek.html#arsitek">
+                <i class='bx bxs-building-house' ></i>
+            </a>
+        </div>
+        <div class="mb-nav-item">
+            <a href="login.html">
+                <i class='bx bxs-user'></i>
+            </a>
+        </div>
+        
+    </div>
+    <!-- END MOBILE NAVBAR -->
+    <a href="#home" class="back-to-top">
+        <i class='bx bxs-chevron-up-circle'></i>
+    </a>
+    <!-- NAVBAR -->
+    <div class="nav">
+        <div class="menu-wrap">
+            <a href="index.html">
+                <div class="logo">
+                    <img src="images/logo.png">
+                </div>
+            </a>
+            <div class="right-menu">
+            	<a href="#">
+                <div class="cari-btn">
+                	<input type="type" placeholder="Cari barang..." name="">
+                    <i class='bx bx-search'></i>
+                </div>
+                </a>
+            	<a href="#">
+                <div class="cart-btn">
+                    <i class='bx bx-cart'></i>
+                </div>
+                </a>
+                
+            </div>
+        </div>
+    </div>
+    <!-- END NAVBAR -->
+    <a href="#home" class="back-to-top">
+        <i class='bx bxs-chevron-up-circle'></i>
+    </a>
+    <!-- SLIDESHOW BANNER -->
+    <div class="slider" id="furnitur">
+      	<div class="slides">
+	        <input type="radio" name="radio-btn" id="radio1">
+	        <input type="radio" name="radio-btn" id="radio2">
+	        <input type="radio" name="radio-btn" id="radio3">
+	        <input type="radio" name="radio-btn" id="radio4">
+        	<div class="slide first">
+          		<img src="images/19168732.jpg" alt="">
+        	</div>
+        	<div class="slide">
+          		<img src="images/19168729.jpg" alt="">
+        	</div>
+        	<div class="slide">
+          		<img src="images/4551318.jpg" alt="">
+        	</div>
+        	<div class="navigation-auto">
+          		<div class="auto-btn1"></div>
+          		<div class="auto-btn2"></div>
+          		<div class="auto-btn3"></div>
+        	</div>
+      	</div>
+      	<div class="navigation-manual">
+	        <label for="radio1" class="manual-btn"></label>
+	        <label for="radio2" class="manual-btn"></label>
+	        <label for="radio3" class="manual-btn"></label>
+      	</div>
+    </div>
+	<!-- END SLIDESHOW BANNER -->
+	<div class="belanja-heading-next">
+			<a href="material.html">
+            <strong>Cari Material</strong>
+            </a>
+    </div>
+	<div class="menu-tittle">
+		<h3>Produk Kategori</h3>
+	</div>	
+    <!-- PRODUK KATEGORI -->
+    <div class="wrapper">
+    <nav>
+      	<div class="filters">
+	        <span class="filter active" data-name="all">All</span>
+	        <span class="filter" data-name="bedroom">Bedroom</span>
+	        <span class="filter" data-name="bathroom">Bathroom</span>
+	        <span class="filter" data-name="living">Living room</span>
+	        <span class="filter" data-name="kitchen">Kitchen</span>
+	        <span class="filter" data-name="office">Office</span>
+      	</div>
+    </nav>
+	</div>
+    <!--END PRODUK KATEGORI -->
+    <!-- LIST PRODUK -->
+    <section class="layanan-belanja">
+        <div class="belanja-heading">
+            <strong>Cari Furnitur</strong>
+            <p>Temukan Furnitur Terlengkap Disini</p>
+        </div>
+        <div class="product-container">
+            <div class="product-box "data-name="bedroom">
+                <div class="product-img">
+                    <a href="#" class="add-cart">
+                        <i class='bx bxs-cart-add'></i>
+                    </a>
+                    <img src="images/springbed.png">
+                </div>
+                <div class="product-details">
+                    <a href="#" class="p-name">Kasur Springbed</a>
+                    <span class="p-price">Rp. 2.000.000</span>
+                </div>
+            </div>
+            <div class="product-box" data-name="office">
+                <div class="product-img">
+                    <a href="#" class="add-cart">
+                        <i class='bx bxs-cart-add'></i>
+                    </a>
+                    <img src="images/kursi.png">
+                </div>
+                <div class="product-details">
+                    <a href="#" class="p-name">Kursi Kantor</a>
+                    <span class="p-price">Rp. 800.000</span>
+                </div>
+            </div>
+            <div class="product-box" data-name="bedroom">
+                <div class="product-img">
+                    <a href="#" class="add-cart">
+                        <i class='bx bxs-cart-add'></i>
+                    </a>
+                    <img src="images/lemari.png">
+                </div>
+                <div class="product-details">
+                    <a href="#" class="p-name">Lemari Pakaian</a>
+                    <span class="p-price">Rp. 1.200.000</span>
+                </div>
+            </div>
+            <div class="product-box" data-name="bathroom">
+                <div class="product-img">
+                    <a href="#" class="add-cart">
+                        <i class='bx bxs-cart-add'></i>
+                    </a>
+                    <img src="images/toilet.png">
+                </div>
+                <div class="product-details">
+                    <a href="#" class="p-name">Closet Duduk</a>
+                    <span class="p-price">Rp. 350.000</span>
+                </div>
+            </div>
+            <div class="product-box" data-name="bathroom">
+                <div class="product-img">
+                    <a href="#" class="add-cart">
+                        <i class='bx bxs-cart-add'></i>
+                    </a>
+                    <img src="images/shower.png">
+                </div>
+                <div class="product-details">
+                    <a href="#" class="p-name">Shower</a>
+                    <span class="p-price">Rp 275.000</span>
+                </div>
+            </div>
+            <div class="product-box" data-name="living">
+                <div class="product-img">
+                    <a href="#" class="add-cart">
+                        <i class='bx bxs-cart-add'></i>
+                    </a>
+                    <img src="images/sofa.png">
+                </div>
+                <div class="product-details">
+                    <a href="#" class="p-name">Sofa Nyaman</a>
+                    <span class="p-price">Rp.6.520.000</span>
+                </div>
+            </div>
+            <div class="product-box" data-name="office">
+                <div class="product-img">
+                    <a href="#" class="add-cart">
+                        <i class='bx bxs-cart-add'></i>
+                    </a>
+                    <img src="images/desk.png">
+                </div>
+                <div class="product-details">
+                    <a href="#" class="p-name">Meja Kerja</a>
+                    <span class="p-price">Rp. 1.825.000</span>
+                </div>
+            </div>
+            <div class="product-box" data-name="kitchen">
+                <div class="product-img">
+                    <a href="#" class="add-cart">
+                        <i class='bx bxs-cart-add'></i>
+                    </a>
+                    <img src="images/kitchen.png">
+                </div>
+                <div class="product-details">
+                    <a href="#" class="p-name">Kitchen Set</a>
+                    <span class="p-price">Rp. 15.000.000</span>
+                </div>
+            </div>
+            <div class="product-box" data-name="living">
+                <div class="product-img">
+                    <a href="#" class="add-cart">
+                        <i class='bx bxs-cart-add'></i>
+                    </a>
+                    <img src="images/meja-tv.png">
+                </div>
+                <div class="product-details">
+                    <a href="#" class="p-name">Meja Tv Minimalis</a>
+                    <span class="p-price">Rp. 950.000</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END LIST PRODUK -->
+    <div class="menu-tittle">
+        <h3>Galeri Produk</h3>
+    </div>
+    <!-- GALLERY -->
+    <section class="galeri">
+        <div class="galeri-foto">
+            <img src="images/foto-1.jpg">
+        </div>
+        <div class="galeri-foto">
+            <img src="images/foto-2.jpg">
+        </div>
+        <div class="galeri-foto">
+            <img src="images/foto-3.jpg">
+        </div>
+    </section>
+    <!-- END GALLERY -->
+    <div class="menu-tittle">
+        <h3>Layanan Produk</h3>
+    </div>
+    <!-- LAYANAN -->
+    <div class="layanan">	
+        <div class="layanan-box">
+            <i class='bx bxs-package'></i>
+            <span>Gratis Ongkir</span>
+            <p>Gratis Ongkir Seluruh Indonesia</p>
+        </div>
+        <div class="layanan-box">
+            <i class='bx bxs-phone-call'></i>
+            <span>Layanan 24 Jam</span>
+            <p>Kami Dukung Penuh 24 Jam</p>
+        </div>
+        <div class="layanan-box">
+            <i class='bx bx-refresh' ></i>
+            <span>100% Uang Kembali</span>
+            <p>Garansi Selama 7 Hari</p>
+        </div>
+    </div>
+    <!-- LAYANAN -->
+    <!-- FOOTER -->
+    <div class="footer" id="about">
+        <div class="logo-foot">
+            <img src="images/logo-white.png" class="logo-img">
+        </div>
+        
+        <div class="Tentang-foot">
+            <p>mbangun adalah website layanan perencanaan pembangunan yang memungkinkan pengguna untuk mencari arsitek dan jual-beli berbagai bahan bangunan. Lewat website mbangun, kamu bisa mengakses beberapa layanan perencanaan dan pembangunan desain ruangan hingga rumah dari kami seperti mencari arsitek, mencari bahan material, dan mencari barang-barang furniture untuk melengkapi kebutuhan rumah kamu.</p>
+        </div>
+
+    </div>
+    <div class="footer-2">
+        <p>MBangun&copy; 2021. All Right Reserved</p>
+    </div>
+    <!-- END FOOTER -->
+    <script src="JS/index.js"></script>
+
+</body>
+</html>
